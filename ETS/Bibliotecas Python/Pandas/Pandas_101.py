@@ -61,6 +61,7 @@ print()
 # print()
 
 print(titanic_db.shape)
+print(titanic_db.isna().sum())
 x = titanic_db.dropna()
 print()
 print(x.shape)
